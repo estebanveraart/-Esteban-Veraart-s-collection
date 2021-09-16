@@ -1,58 +1,103 @@
 body{
     height: 100vh;
+    background-image: url(images/background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 main{
+    height: 100%;
+    width: 100%;
     display: flex;
     flex-flow: row wrap;
-    align-content: space-around;
+    justify-content: space-around;
 }
 section{
     width: 300px;
     height: 600px;
-    background-repeat: no-repeat;
-    border : 20px solid gray;
+    border : 10px solid gainsboro;
     border-radius:50px;
     padding: 3px;
     margin: 30px;
     font-size: 20px;
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: 50%;
+
 }
-h1,h2,h3,h4,p{
+h1{
+    font-size: 50px;
+    text-align: center;
+    color: black;
+    text-decoration: underline yellowgreen 5px;
+}
+h2,h3,h4,p{
     
-    padding: 3px;
+    padding: 5px;
     text-align: center;
     text-align-last: center;
     justify-content: flex-end;
+    color: white;
+    line-height: 30px;
+
+}
+img{
+    width: 100%;
+    border-radius: 50px;
+    height: 180px;
 }
 .Gu{
-    background-image: url(images/GuDaoist.jpeg);
+    background-color: rgba(6,13,42,255);
 }
 .Peak{
-    background-image: url(images/MartialPeak.jpeg);
+    background-color: rgba(107,102,96,255);
 }
 .Great{
-    background-image: url(images/GreatImmortal.jpeg);
+    background-color: rgba(72,143,223,255);
 }
-.RCultivator{
-    background-image: url(images/RebirthCultivator.jpeg);
+.Rebirth{
+    background-color: rgba(93,192,239,255);
 }
 .Tales{
-    background-image: url(images/TalesDemons.jpeg);
+    background-color: rgba(0,1,3,255);
 }
 .Reings{
-    background-image: url(images/MartialReings.jpeg);
+    background-color: rgba(185,152,241,255);
 }
 .God{
-    background-image: url(images/GodKing.jpeg);
+    background-color: rgba(185,152,241,255);
 }
 .Dragon{
-    background-image: url(images/DragonBody.jpeg);
+    background-color: rgba(113,46,89,255);
 }
 .Bai{
-    background-image: url(images/BaiLian.jpeg);
+    background-color: rgba(206,229,245,255);
 }
 .Yuan{
-    background-image: url(images/YuanZun.jpeg);
+    background-color: rgba(189,200,219,255);
+}
+.header {
+    overflow: hidden;
+    background-color:white;
+    padding: 40px 10px;
+    background-image: url(images/background\ header.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+.header a {
+    float: cover;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+.header a.active {
+    background-color: grey;
+    color: white;
+}
+
+.header-right {
+    float: right;
 }
