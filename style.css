@@ -81,6 +81,7 @@ img{
     background-position: center;
     background-repeat: no-repeat;
     background-color: black;
+    float: right;
 }
 .header a {
     float: cover;
@@ -96,8 +97,4 @@ img{
 .header a.active {
     background-color: grey;
     color: white;
-}
-
-.header-right {
-    float: right;
 }
